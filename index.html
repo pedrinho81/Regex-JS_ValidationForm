@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValidationJs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <h1>Native form validation <br> <h2>With JavaScript & RegEx</h2></h1>
+        <label>User (only letters)</label>
+        <input type="text" id="user" pattern="[a-zA-Z]{5,}" placeholder="Insira o usuário.">
+        <label>Password (only numbers)</label>
+        <input type="password" id="password" pattern="[0-9]{1,}" placeholder="Insira a senha.">
+        <label>E-mail (valid e-mail)</label>
+        <input type="email" id="email" placeholder="Insira o e-mail">
+        <button type="submit"">Submit</button>
+    </form>
+<script src="script.js"></script>    
+</body>
+</html>

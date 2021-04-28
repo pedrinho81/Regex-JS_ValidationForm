@@ -1,0 +1,70 @@
+html {
+    background-color: #000000e7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    width: 400px;
+    margin: 50px auto 0 auto;
+    background: transparent;
+    padding: 20px;
+    border: 2px solid #cecece;
+    border-radius: 6.5%;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+input {
+    display: block;
+    width: 100%; 
+    padding: 6px;
+    border: 2px solid #cecece;
+}
+
+label {
+    font-weight: bold;
+    font-size: 17px;
+    font-family:'Fira Code';
+    color: rgb(136, 136, 136);
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h2 {
+    font-family:'Architects Daughter';
+    color:#ffffffd7;
+
+}
+
+button {
+    width:30%;
+    margin-top: 10px;
+    margin-left: 35%;
+    background-color:white;
+    font-size: 16px;
+    border-radius: 40%;
+    cursor: pointer;
+}
+
+p {
+    color: white;
+}
+
+.STYLEerror {
+    border: solid 2.2px red;
+}
+.STYLEerror::placeholder{
+    color: red;
+}
